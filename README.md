@@ -2,8 +2,8 @@
 
 ## 📌 Descripción
 
-Este proyecto consiste en la implementación de un servidor web seguro utilizando **Node.js** y el framework **Express**, configurado para operar mediante el protocolo **HTTPS**.
-Para ello, se generaron certificados digitales auto-firmados utilizando **OpenSSL**, permitiendo establecer una conexión cifrada entre el cliente y el servidor.
+Este proyecto consiste en la implementación de un servidor web seguro utilizando *Node.js* y el framework *Express, configurado para operar mediante el protocolo **HTTPS*.
+Para ello, se generaron certificados digitales auto-firmados utilizando *OpenSSL*, permitiendo establecer una conexión cifrada entre el cliente y el servidor.
 
 El objetivo principal es comprender el funcionamiento de HTTPS, la gestión de certificados SSL y la implementación de servidores seguros en entornos de desarrollo.
 
@@ -32,16 +32,16 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 Clona el repositorio:
 
-```bash
+bash
 git clone https://github.com/joaquinrojasf/actividad-semana5-https-express.git
 cd actividad-semana5-https-express
-```
+
 
 Instala las dependencias:
 
-```bash
+bash
 npm install
-```
+
 
 ---
 
@@ -49,15 +49,15 @@ npm install
 
 Ejecuta el siguiente comando:
 
-```bash
+bash
 node server.js
-```
+
 
 Luego abre tu navegador en:
 
-```text
+text
 https://localhost:8080
-```
+
 
 ---
 
@@ -65,18 +65,18 @@ https://localhost:8080
 
 Al acceder al servidor, el navegador mostrará una advertencia indicando que la conexión no es privada.
 
-Esto es completamente normal, ya que el certificado utilizado es **auto-firmado** y no ha sido emitido por una entidad certificadora oficial.
+Esto es completamente normal, ya que el certificado utilizado es *auto-firmado* y no ha sido emitido por una entidad certificadora oficial.
 
 Para continuar:
 
-* Seleccionar **“Avanzado”**
-* Luego **“Continuar a localhost”**
+* Seleccionar *“Avanzado”*
+* Luego *“Continuar a localhost”*
 
 ---
 
 ## 📁 Estructura del proyecto
 
-```text
+text
 servidor-https/
 │
 ├── server.js
@@ -85,7 +85,7 @@ servidor-https/
 ├── .gitignore
 ├── README.md
 └── evidencias/
-```
+
 
 ---
 
@@ -97,7 +97,7 @@ Por razones de seguridad, los siguientes archivos no fueron incluidos en el repo
 * certificate.pem
 * request.csr
 
-Estos archivos están protegidos mediante `.gitignore` para evitar la exposición de claves sensibles.
+Estos archivos están protegidos mediante .gitignore para evitar la exposición de claves sensibles.
 
 ---
 
@@ -122,7 +122,7 @@ A continuación se presentan evidencias del funcionamiento del sistema:
 ## 👥 Integrantes
 
 * Joaquin Rojas
-* Boris Fernandez
+* [Nombre de tu compañero]
 
 ---
 
