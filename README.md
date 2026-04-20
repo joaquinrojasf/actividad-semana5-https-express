@@ -132,4 +132,8 @@ Se logró implementar exitosamente un servidor HTTPS funcional en un entorno loc
 
 Además, se utilizó Git y GitHub para el control de versiones, permitiendo una gestión ordenada del proyecto y facilitando el trabajo colaborativo.
 
+## Actualización final
+
+Se realizaron mejoras en la documentación y validación del funcionamiento del servidor HTTPS.
+
 ---
